@@ -10,7 +10,7 @@ df = pd.read_excel(arquivo_atendimento_sus)
 # consulta de informação georeferencial na api do Google 
 endereco_completo = {}
 
-API_KEY = 'AIzaSyAUB_1Q5eYMIeUOhgCxTb9XncMHdZ6yFwc'
+API_KEY = 'sua_api_key'
 
 for linha in df.itertuples():
     
